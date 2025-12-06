@@ -59,7 +59,7 @@ def convert_folder(folder_path):
 
 
 if __name__ == "__main__":
-    folder = input("Introduceti calea catre folderul cu fisiere M4A: ").strip()
+    folder = input("\nIntroduceti calea catre folderul cu fisiere M4A: ").strip()
     if os.path.isdir(folder):
         convert_folder(folder)
     else:
